@@ -249,7 +249,7 @@ namespace winPEAS.Checks
 
         private static void PrintWifi()
         {
-            try
+            /*try
             {
                 Beaprint.MainPrint("Looking for saved Wifi credentials");
 
@@ -299,7 +299,8 @@ namespace winPEAS.Checks
                 {
                     Beaprint.NoColorPrint("No saved Wifi credentials found");
                 }
-            }
+            }*/
+            Beaprint.NoColorPrint("No saved Wifi credentials found");
         }
 
         private static void PrintAppCmd()

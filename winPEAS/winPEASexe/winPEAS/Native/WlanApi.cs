@@ -6,7 +6,7 @@ namespace winPEAS.Native
 {
     internal class WlanApi
     {
-        [DllImport("wlanapi.dll")]
+        /*[DllImport("wlanapi.dll")]
         internal static extern int WlanOpenHandle(
             [In] UInt32 clientVersion,
             [In, Out] IntPtr pReserved,
@@ -51,6 +51,6 @@ namespace winPEAS.Native
             [In] IntPtr clientHandle,
             [In, MarshalAs(UnmanagedType.LPStruct)] Guid interfaceGuid,
             [In] ref WlanConnectionParameters connectionParameters,
-            IntPtr pReserved);
+            IntPtr pReserved);*/
     }
 }

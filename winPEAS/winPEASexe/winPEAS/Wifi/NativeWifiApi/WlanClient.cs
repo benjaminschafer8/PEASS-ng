@@ -10,7 +10,7 @@ namespace winPEAS.Wifi.NativeWifiApi
         // c# net api: https://github.com/jorgebv/windows-wifi-api
         // powershell: https://github.com/jcwalker/WiFiProfileManagement
 
-        public class WlanInterface
+        /*public class WlanInterface
         {
             private WlanClient client;
             private WlanInterfaceInfo info;
@@ -158,6 +158,6 @@ namespace winPEAS.Wifi.NativeWifiApi
                     WlanApi.WlanFreeMemory(ifaceList);
                 }
             }
-        }
+        }*/
     }
 }
